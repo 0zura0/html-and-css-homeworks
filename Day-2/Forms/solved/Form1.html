@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 Forms</title>
+</head>
+<body>
+    <h1> Contact Us Today</h1>
+    <form action="*"  >
+
+        <label for="Nameid">First Name &nbsp; </label>
+        <input type="text" id="Nameid" placeholder="First Name" required>
+        <br><br>
+
+        <label for="lalstID">Last Name &nbsp; </label>
+        <input type="text" id="lalstID" placeholder="Last Name" required>
+        <br><br>
+
+        <label for="Emailid">E-Mail &nbsp;</label>
+        <input type="email"  id="Emailid" placeholder="E-Mail Address" required>
+        <br><br>
+
+        <label for="telId"> Phone # &nbsp;</label>
+        <input type="tel" id="telId" placeholder="{845}555-1212" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"  required>
+        <br><br>
+
+        <label for="addressid">Address &nbsp;</label>
+        <input type="text" id="addressid" placeholder="Address" required>
+        <br><br>
+
+        <label for="Cityid">City &nbsp;</label>
+        <input type="text" id="Cityid" placeholder="city" required>
+        <br><br>
+
+        <label for="Stateid">State &nbsp;</label>
+        <select  id="Stateid" required>
+            <option selected disabled>Please select your state</option>
+            <option value="al">Alabama</option>
+            <option value="texax">Texas</option>
+            <option value="cal">California</option>
+        </select>
+        <br><br>
+
+        <label for="zipID">Zip Code &nbsp;</label>
+        <input type="text" id="zipID" pattern="^[0-9]*$" placeholder="Zip Code" required>
+        <br><br>
+
+        <label for="webid">Website or domain name &nbsp;</label>
+        <input type="url" id="webid" placeholder="Website or domain name" required>
+        <br><br>
+
+        <label > 
+            DO you have hosting?
+            <input type="radio" name="host" id="hostid1" required>
+            Yes
+        </label>
+        <br>
+
+        <label >
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="host" id="hostid2" required>
+            No
+        </label>
+        <br><br>
+
+        <label for="textarea" style="padding-bottom: 50px;">Project Description</label>
+        <textarea  id="textarea" cols="30" rows="4"></textarea>
+        <br><br>
+        
+        <input type="submit" value="SEND">
+    </form>
+</body>
+</html>

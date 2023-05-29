@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 Forms</title>
+</head>
+<body>
+    <form action="x">
+        <label for="Nameid">Name</label>
+        <input type="text" id="Nameid" placeholder="Artisanal kate" required>
+        <br><br>
+
+        <label for="mailid">Email</label>
+        <input type="email" placeholder="bootstrap@example.com" required>
+        <br><br>
+
+        <label for="Passid">Password</label>
+        <input type="password" id="Passid" required>
+        <br><br>
+
+        <label for="numid">Number</label>
+        <input type="text" id="numid" pattern="^[0-9]*$" placeholder="42" required>
+        <br><br>
+
+        <label for="date">Date</label>
+        <input type="text" id="date" placeholder="11.04.2019" pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$" required>
+        <br><br>
+
+        <label for="time">Time</label>
+        <input type="text" placeholder="13:45" id="time" pattern="^[0-2][0-3]:[0-5][0-9]$" required>
+        <br><br>
+
+        <label for="Col">Color</label>
+        <input type="color"  id="Col" required>
+        <br><br>
+
+        <label for="rang">Range</label>
+        <input type="range" id="rang" required>
+        <br><br>
+
+        <label for="desc">Description</label>
+        <textarea  id="desc" cols="30" rows="5" required></textarea>
+        <br><br><hr>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
