@@ -1,0 +1,77 @@
+main{
+    display: flex;
+}
+
+header a{
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 70px;
+    border-radius: 10px;
+    
+}
+
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border-style: groove;
+    border-spacing: 5px; 
+    height: 150px;   
+}
+
+nav a {
+    color: #fff092;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+
+nav a:hover {
+    background-color: #555;
+}
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+}
+
+
+main>hr {
+    width: 10px;
+    border: 2px dashed #999;
+    }
+
+hr{
+    border: 2px dashed #999; 
+}
+
+figcaption{
+    background-color: #999;
+    height: 60px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+
+  body{
+    background: linear-gradient(45deg, rgb(246, 210, 210), rgb(255, 227, 174), rgb(255, 255, 182), rgb(185, 255, 185), rgb(188, 188, 255), rgb(225, 183, 255), rgb(255, 182, 255), rgb(255, 208, 208));
+    background-repeat: no-repeat;
+    height: 100vh;
+}

@@ -1,0 +1,99 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(129, 127, 127);;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    height: 95px;
+
+}
+
+nav a{
+    padding: 10px;
+    line-height: 50px;
+    background-color: rgb(244, 255, 244);
+    border-radius:10px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: yellow;
+}
+.headh1{
+    font-size:30px;
+    font-family:sans-serif;
+    width: 50%;
+}
+
+
+.headh3{
+    color: rgb(145, 145, 145);
+    font-size: 15px;
+    width: 40%;
+}
+
+img{
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+img:hover{
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 10px;
+}
+
+figcaption{
+    color: rgb(145, 145, 145);
+    font-size: 15px;
+    width: 40%;
+}
+
+main>p{
+    font-family: sans-serif;
+    font-size: px;
+}
+
+aside{
+    width: 600px;
+    margin: 10px auto;
+    background-color: #DDD;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    
+}
+
+
+aside::after{
+    content: '';
+    display: block;
+    border-style: solid;
+    border-color: #2d2929 transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+aside::after{
+    content: '';
+    display: block;
+    border-width: 0px 50px 50px 0px;
+    border-style: solid;
+    border-color: #d7d7d7 #FFF;
+    box-shadow: -5px 6px 5px rgb(129, 127, 127);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+aside > p{
+    
+    padding: 50px 30px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #555;
+}
+

@@ -1,0 +1,63 @@
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+figcaption{
+    
+    border-style:dashed;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  hr {
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 300px;
+}
+hr::before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+body{
+    background-color: aqua;
+}
+
+header h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header a{
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+    
+}
+
+header a:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: black   ;
+}
