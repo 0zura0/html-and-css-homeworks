@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.wrapper{
+    display: inline-block;
+}
+
+.section{
+    border: 1px solid #eaeaea;
+    height: 170px;
+    width: 468px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 24px;
+    padding-left: 25px;
+}
+
+.topimg{
+padding-right: 11px;
+}
+
+.topspan{
+    vertical-align :3px;
+    font-size:18px;
+}
+
+.divs{
+    margin-bottom: 10px;
+}
+.bottom{
+    height: 226px;
+    margin-top:0;
+    border-top: none;
+    padding-top:16px;   
+}
+
+.docspan{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.uploadspan{
+    font-size: 24px;
+    padding-bottom:33px;
+}
+
+.profile{
+    display: block;
+    width: 218px;
+    padding-bottom: 32px;  
+}
+
+.icon1{
+    height: 25px;
+    padding-left: 6px;
+    padding-right: 19px;
+}
+
+.seen{
+    display: inline-block;
+    margin-left: 183px;
+}
+
+.eye{
+    padding-right: 4px;
+}
+
+.seenspan{
+    font-size: 20px;
+    vertical-align: 5px;
+}
+
