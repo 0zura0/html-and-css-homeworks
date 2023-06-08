@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+        .float{
+            float: left;
+        }
+        .wrapper{
+            height: 1084px;
+            width: 940px;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-33.5%);
+            background-color: rgb(246, 234, 219);
+            border: 1px solid black;
+        }
+        .margin{
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        .margin_top{
+            margin-top: 20px;
+        }
+
+        .square{
+            height: 220px;
+            width: 220px;
+        }
+        .small_square{
+            height: 100px;
+            width: 100px;
+        }
+
+        .wide_rectangle{
+            width: 700px;
+            height: 220px;
+        }
+
+        .rectangle{
+            height: 220px;
+            width: 460px;
+        }
+        .wrapper div{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="square margin float"></div>
+        <div class="square margin float"></div>
+        <div class="square margin float"></div>
+        <div class="square margin_top float"></div>
+
+        <div class="small_square margin float"></div>
+        <div class="small_square margin float"></div>
+        <div class="small_square margin float"></div>
+        <div class="small_square margin float"></div>
+        <div class="small_square margin float"></div>
+        <div class="small_square margin float"></div>
+        <div class="small_square margin float"></div>
+        <div class="small_square margin_top float"></div>
+
+        <div class="wide_rectangle margin float" ></div>
+        <div class="square margin_top float"></div>
+
+        <div class="square margin float"></div>
+        <div class="wide_rectangle margin_top float"></div>
+
+        <div class="rectangle margin float"></div>
+        <div class="rectangle margin_top float"></div>
+    </div>
+    
+</body>
+</html>
