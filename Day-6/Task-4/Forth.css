@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 805px;
+    width: 805px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.top{
+    height: 37.3%;
+    display: flex;
+    gap: 13px;
+}
+.num1{
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+
+.num2{
+    width: 25%;
+    display: flex;
+    gap: 7px;
+}
+
+.num3{
+    width: 56.7%;
+    display: flex;
+    gap: 7px;
+}
+
+.num4{
+    width: 6.4%;
+    background-color:yellow;
+}
+
+.num1 div:nth-child(1){
+   height: 57.8%;
+   background-color: white; 
+}
+
+.num1 div:nth-child(2){
+   height: 40%;
+   background-color: yellow; 
+}
+
+.num1 div:nth-child(2),
+.num1 div:nth-child(2),
+.num2_left div:nth-child(1),
+.num2_left div:nth-child(2),
+.num2_left div:nth-child(3),
+.num2_right div:nth-child(1),
+.num2_right div:nth-child(2),
+.num3_middle div:nth-child(2),
+.num3_middle div:nth-child(1),
+.num3_left div:nth-child(2),
+.num3_left div:nth-child(1),
+.top,
+.ininnerDiv > div:nth-child(1),
+.ininnerDiv > div:nth-child(2),
+.bottom,
+.bottom1 >div:nth-child(1),
+.bottom1 >div:nth-child(2),
+.bottom1 >div:nth-child(3),
+.bottom1 >div:nth-child(4),
+.insider div:nth-child(1),
+.insider div:nth-child(2),
+.bottom2 div:nth-child(3)
+{
+    width: 100%;
+}
+.num2_left, .num2_right{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 59%;
+}
+
+.num2_left div:nth-child(1){
+    height: 17%;
+    background-color: yellow;
+}
+
+.num2_left div:nth-child(2){
+    height: 38.7%;
+    background-color: yellow;
+}
+
+.num2_left div:nth-child(3){
+    height: 39.7%;
+    background-color:white;
+}
+
+.num2_right{
+    width: 38%;
+}
+
+.num2_right div:nth-child(1){
+    height: 17%;
+    background-color: yellow;
+}
+
+.num2_right div:nth-child(2){
+    height: 81%;
+    background-color: black;
+}
+.num3_left{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.num3_left div:nth-child(1){
+    height: 17%;
+    background-color:white;
+}
+
+.num3_left div:nth-child(2){
+    height: 81%;
+    background-color:blue;
+}
+
+.num3_middle{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.num3_middle > div:nth-child(1){
+    height: 58%;
+}
+
+.num3_middle > div:nth-child(2){
+    height: 41%;
+    background-color: yellow;
+}
+
+.num3_middle_top{
+    display: flex;
+    gap: 7px;
+}
+
+.num3_middle_top > div:nth-child(1){
+    width: 232%;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+
+.num3_middle_top div:nth-child(2){
+    width: 95%;
+    background-color: white;
+}
+
+.num3_right{
+    width: 16%;
+    background-color: red;
+}
+
+.ininnerDiv > div:nth-child(1){
+    height: 450%;
+    background-color:yellow;
+}
+
+.ininnerDiv > div:nth-child(2){
+    height: 97%;
+    width: 100%;
+    background-color: rgb(255, 255, 122);
+}
+
+.bottom{
+    width: 100%;
+    height: 61.1%;
+    display: flex;
+    gap: 13px;
+}
+
+.bottom1{
+    width: 33.7%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.bottom1 >div:nth-child(1){
+    height: 16.7%;
+    background-color: yellow;
+}
+
+.bottom1 >div:nth-child(2){
+    height: 16.1%;
+    background-color:blue;
+}
+
+.bottom1 >div:nth-child(3){
+    height: 24.5%;
+    background-color: black;
+}
+
+.bottom1 >div:nth-child(4){
+    height: 38.5%;
+    display: flex;
+    gap: 7px;
+}
+
+.corner > div:nth-child(1){
+    width: 21%;
+    background-color: white;
+}
+
+.corner div:nth-child(2){
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.corner div:nth-child(2) div:nth-child(1){
+    margin-left: 6px;
+    width: 96%;
+    height: 17%;
+    background-color: red;
+}
+.corner div:nth-child(2) div:nth-child(2){
+    margin-left: 6px;
+    width: 96%;
+    height: 80%;
+    background-color: yellow;
+}
+
+.corner div:nth-child(3){
+    width: 28%;
+    background-color: white;
+}
+
+.bottom2{
+    width: 27.1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.bottom2 div:nth-child(1){
+    height: 60.1%;
+    width: 48%;
+    background-color: yellow;
+}
+
+.bottom2 div:nth-child(2){
+    height: 60.1%;
+    width: 48.8%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.insider div:nth-child(1){
+    width: 100%;
+    height: 11%;
+}
+
+.insider div:nth-child(2){
+    width: 100%;
+    height: 88%;
+    background-color: yellow;
+}
+
+.bottom2 div:nth-child(3){
+    height: 38.4%;
+    background-color: white;
+}
+
+
+.bottom3{
+    width: 35.9%;
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+
+.bottom3_top{
+    height: 34%;
+    width: 100%;
+    display: flex;
+    gap: 13px;
+}
+
+.bottom3_top_left{
+    display: flex;
+    width: 78%;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.bottom3_top_left div:nth-child(1){
+    width: 100%;
+    height: 49%;
+}
+
+.bottom3_top_left div:nth-child(2){
+    width: 65%;
+    height: 47.5%;
+    background-color: yellow;
+}
+
+.bottom3_top_left div:nth-child(3){
+    width: 31.8%;
+    height: 47.5%;
+    background-color: yellow;
+}
+
+.bottom3_top_right{
+    display: flex;
+    width: 18%;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.bottom3_top_right div:nth-child(1){
+    height: 49%;
+    width: 100%;
+    background-color: white;
+}
+
+.bottom3_top_right div:nth-child(2){
+    height: 47.5%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.bottom3_bottom{
+    height: 63.3%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+
+.bottom3_bottom div:nth-child(1){
+    height: 66%;
+    width: 33%;
+    background-color: red;
+}
+
+.bottom3_bottom div:nth-child(2){
+    height: 66%;
+    width: 64.58%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.bottom3_bottom div:nth-child(3){
+    height: 31.8%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.bottom3_bottom div:nth-child(2) div:nth-child(1){
+    height: 92%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: yellow;
+}
+
+.bottom3_bottom div:nth-child(2) div:nth-child(2){
+    height: 65%;
+    width: 100%;
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.num1,
+.num2,
+.num3,
+.num4,
+.num3_left,
+.num3_middle,
+.num3_right,
+.num3_middle_top div:nth-child(2),
+.num2_left, 
+.num2_right,
+.num3_middle_top > div:nth-child(1),
+.bottom1,
+.corner > div:nth-child(1),
+.corner div:nth-child(2),
+.corner div:nth-child(3),
+.bottom2,
+.bottom3, 
+.bottom3_top_left,
+.bottom3_top_right
+{
+    height: 100%;
+}
