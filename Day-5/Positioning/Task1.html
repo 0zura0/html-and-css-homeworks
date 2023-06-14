@@ -7,79 +7,59 @@
     <title>Document</title>
     <style>
         *{
-            margin: 0;
-            padding: 0;
-            /* box-sizing: border-box; */
+            font-family: sans-serif;
         }
-        .float{
-            float: left;
-        }
+
         .wrapper{
-            height: 1084px;
-            width: 940px;
-            position:absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-33.5%);
-            background-color: rgb(246, 234, 219);
             border: 1px solid black;
+            position: absolute;
+            left:21.8%;
+            top:7%;
+            width: 730px;
+            height: 227px;
+        }  
+
+        .header, .butt , .content{
+            position: relative;
         }
-        .margin{
-            margin-top: 20px;
-            margin-right: 20px;
-        }
-        .margin_top{
-            margin-top: 20px;
+        
+        .header{
+            display: inline-block;
         }
 
-        .square{
-            height: 220px;
-            width: 220px;
-        }
-        .small_square{
-            height: 100px;
-            width: 100px;
+        .left{
+            left: 4.6%;
         }
 
-        .wide_rectangle{
-            width: 700px;
-            height: 220px;
+        .butt{
+            left: 56.4%;
+            top: 2px;
+            font-size: 50px;
+            background: none;
+            border: none;
         }
 
-        .rectangle{
-            height: 220px;
-            width: 460px;
+        .content{
+            font-size: 29px;
+            margin-left: 4.6%;
+            bottom: 30px;
+            line-height: 1.45;
+            width: 85%;
         }
-        .wrapper div{
-            background-color: gray;
-        }
+        
+
     </style>
 </head>
 <body>
     <div class="wrapper">
-        <div class="square margin float"></div>
-        <div class="square margin float"></div>
-        <div class="square margin float"></div>
-        <div class="square margin_top float"></div>
-
-        <div class="small_square margin float"></div>
-        <div class="small_square margin float"></div>
-        <div class="small_square margin float"></div>
-        <div class="small_square margin float"></div>
-        <div class="small_square margin float"></div>
-        <div class="small_square margin float"></div>
-        <div class="small_square margin float"></div>
-        <div class="small_square margin_top float"></div>
-
-        <div class="wide_rectangle margin float" ></div>
-        <div class="square margin_top float"></div>
-
-        <div class="square margin float"></div>
-        <div class="wide_rectangle margin_top float"></div>
-
-        <div class="rectangle margin float"></div>
-        <div class="rectangle margin_top float"></div>
+        <div>
+            <h1 class="header left">Notofication Title</h1>
+            <button class="butt">&times;</button>
+        </div>
+        <p class="content">This is the content of the notification.
+            This is the content of the notification.
+            This is the content of the notification.
+        </p>
     </div>
-    
 </body>
 </html>
