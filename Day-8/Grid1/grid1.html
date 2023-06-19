@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 372px;
+            height: 449px;
+            display: grid;
+            grid-template: repeat(14,1fr)/repeat(15,1fr);
+            
+        }
+
+        .top{
+            border-top: 10px solid black;
+        }
+        .left{
+            border-left: 10px solid black;
+        }
+        .right{
+            border-right: 10px solid black;
+        }
+        .bottom{
+            border-bottom: 10px solid black;
+        }
+        .one{
+            grid-area:1/ 1 /4 / 5;
+            background-color:white;
+        }
+        .two{
+            grid-area:1/5/ 11 /16;
+            background-color: rgb(249, 51, 68);
+        }
+        .three{
+            grid-area: 4/1/11/5;
+            background-color: white(34, 29, 29);
+        }
+        .for{
+            grid-area: 11/1/-1/5;
+            background-color: blue;
+        }
+        .five{
+            grid-area:  11 / 5 / -1 /-4;
+            background-color: white;
+        }
+        .six{
+            grid-area:11/-4/ -3/ -1;
+            background-color: white;
+        }
+        .seven{
+            grid-area:-3/-4/-1/-1;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one right left top bottom"></div>
+        <div class="two top right bottom "></div>
+        <div class="three left right bottom"></div>
+        <div class="for left right bottom"></div>
+        <div class="five bottom "></div>
+        <div class="six right left bottom"></div>
+        <div class="seven bottom left right"></div>
+    </div>
+</body>
+</html>

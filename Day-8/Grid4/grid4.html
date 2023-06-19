@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 805px;
+            height: 805px;
+            display: grid;
+            grid-template-columns: 73px 123px 89px 110px 116px 107px 51px 87px 49px;
+            grid-template-rows: 58px 83px 39px 132px 40px 48px 94px 124px 38px 49px 100px;
+            border: 1px solid black;
+        }
+        .bottom{
+            border-bottom: 8px solid black;
+        }
+        .biggerBottom{
+            border-bottom: 15px solid black;
+        }
+        .right{
+            border-right: 8px solid black;
+        }
+        .biggerRight{
+            border-right: 15px solid black;
+        }
+        .left{
+            border-left: 7px solid black;
+        }
+        .i1{
+            grid-area: 1/1/4/1;
+            background-color: white;
+        }
+        .i2{
+            grid-area: 1/2/2/3;
+            background-color: #ffeea9;
+        }
+        .i3{
+            background-color: #ffeea9;
+        }
+        .i4{
+            background-color: white;
+            grid-area: span 1/ span 2;
+        }
+        .i5{
+            background-color: #ffeea9;
+            grid-area: span 2/ span 1;
+        }
+
+        .i6{
+            background-color: white;
+            grid-area: span 3 / span 1;
+        }
+
+        .i7{
+            background-color: red;
+            grid-area: span 4 / span 1;
+        }
+        .i8{
+            background-color: #ffeea9;
+            grid-area: span 4 / span 1;
+        }
+        .i9{
+            background-color: #ffeea9;
+            grid-area: span 2/span 1;
+        }
+
+        .i10{
+            background-color: black;
+            grid-area:span 3 / span 1;
+        }
+        .i11{
+            background-color: blue;
+            grid-area: span 3 /span 2;
+        }
+        .i12{
+            background-color: yellow;
+        }
+        .i13{
+            background-color: #ffeea9;
+        }
+        .i15{
+            background-color: #ffeea9;
+            grid-area: span 1 /span 2;
+        }
+        .i16{
+            background-color: #ffeea9;
+            grid-area: span 2/span 3;
+        }
+        .i17{
+            background-color: #ffeea9;
+            grid-area: span 4/span 1;
+        }
+        .i18{
+            background-color: #ffeea9;
+        }
+        .i19{
+            background-color: black;
+            grid-area: span 2 / span 3;
+        }
+        .i20{
+            background-color: white;
+            grid-area: span 2 /span 1;
+        }
+        .i21{
+            background-color: yellow;
+            grid-area: span 3/span 1;
+        }
+
+        .i22{
+            background-color: blue;
+            grid-area: span 1 / span 3;
+        }
+        .i23{
+            background-color: #ffeea9;
+            grid-area:span 1 / span 2;
+        }
+        .i24{
+            background-color: #ffeea9;
+        }
+        .i25{
+            background-color: #ffeea9;
+
+        }
+        .i26{
+            background-color: black;
+            grid-area: span 1 /span 3;
+        }
+        .i27{
+            background-color: red;
+            grid-area: span 3 /span 1;
+        }
+        .i28{
+            background-color: yellow;
+            grid-area: span 1 /span 3;
+        }
+        .i29{
+            background-color: white;
+            grid-area: span 3/ span 1;
+        }
+        .i30{
+            background-color: red;
+        }
+        .i31{
+            background-color: #ffeea9;
+            grid-area: span 3 /span 1;
+        }
+        .i32{
+            background-color: white;
+            grid-area:span 3 /span 2
+        }
+        .i33{
+            background-color: blue;
+            grid-area: span 2 /span 3
+        }
+        .i34{
+            background-color:yellow;
+            grid-area: span 2/span 1
+        }
+        .i35{
+            background-color: #ffeea9;
+            grid-area: span 1 /span 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="i1 bottom biggerRight"></div>
+        <div class="i2 bottom right"></div>
+        <div class="i3 biggerRight bottom"></div>
+        <div class="i4 bottom right"></div>
+        <div class="i5 bottom right"></div>
+        <div class="i6 bottom right"></div>
+        <div class="i7 biggerBottom biggerRight"></div>
+        <div class="i8 biggerBottom" ></div>
+        <div class="i9 bottom right"></div>
+        <div class="i10 biggerBottom biggerRight"></div>
+        <div class="i11 biggerBottom right"></div>
+        <div class="i12 right bottom"></div>
+        <div class="i13 biggerBottom biggerRight"></div>
+        <div class="i14 biggerBottom right"></div>
+        <div class="i15 biggerBottom right"></div>
+
+        <div class="i16 biggerRight bottom"></div>
+        <div class="i17 bottom right"></div>
+        <div class="i18 right bottom"></div>
+        <div class="i19 biggerRight bottom"></div>
+        <div class="i20 bottom"></div>
+        <div class="i21 right bottom"></div>
+        <div class="i22 biggerBottom biggerRight"></div>
+        <div class="i23 left biggerBottom right"></div>
+        <div class="i24 biggerBottom biggerRight"></div>
+        <div class="i25 biggerBottom"></div>
+        <div class="i26 biggerRight bottom"></div>
+        <div class="i27 bottom right left"></div>
+        <div class="i28 biggerBottom"></div>
+        <div class="i29 biggerRight"></div>
+        <div class="i30 right bottom"></div>
+        <div class="i31 biggerRight"></div>
+        <div class="i32 right"></div>
+        <div class="i33 bottom"></div>
+        <div class="i34 right"></div>
+        <div class="i35 left"></div>
+    </div>
+</body>
+</html>

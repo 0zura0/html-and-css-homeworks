@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 600px;
+            height: 600px;
+            display: grid;
+            grid-template-columns: 62px 216px 189px 131px;
+            grid-template-rows: 249px 146px 182px 21px;
+            border: 1px solid black;
+        }
+
+        .bottom{
+            border-bottom:13px solid black ;
+        }
+        .right{
+            border-right: 13px solid black;
+        }
+        .one{
+            grid-area: 1/1/2/3;
+            background-color: red;
+        }
+        .two{
+            grid-area: 1/3/2/-1;
+            background-color: white;
+        }
+        .three{
+            grid-area: 2/1/3/3;
+            background-color: white;
+        }
+
+        .four{
+            grid-area:2/3/3/-1;
+            background-color: white;
+        }
+        .five{
+            grid-area: 3/1/-1/2;
+            background-color: yellow;
+        }
+        .six{
+            grid-area: 3/2/-1/3;
+            background-color: white;
+        }
+        .seven{
+            grid-area: 3/3/-2/4;
+            background-color: rebeccapurple;
+        }
+        .eight{
+            grid-area: 4/3/-1/-2;
+            background-color: white;
+        }
+        .nine{
+
+            grid-area: 3/4/-1/-1;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one bottom right"></div>
+        <div class="two bottom "></div>
+        <div class="three bottom right"></div>
+        <div class="four bottom"></div>
+        <div class="five right"></div>
+        <div class="six right"></div>
+        <div class="seven right bottom"></div>
+        <div class="eight right"></div>
+        <div class="nine"></div>
+
+    </div>
+</body>
+</html>

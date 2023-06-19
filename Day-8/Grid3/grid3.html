@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .color{
+            background-color: #e1e1e1;
+        }
+        .container{
+            width:940px;
+            height:1060px;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(8,100px);
+            grid-template-rows: repeat(9,100px);
+        }
+        .rectangle{
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+        }
+
+        .smallRectangle{
+            grid-column-start: span 1;
+            grid-row-start: span 1;
+        }
+
+        .long{
+            grid-column-start: span 6;
+            grid-row-start: span 2;
+        }
+        .medium{
+            grid-column-start: span 4;
+            grid-row-start: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle color"></div>
+        <div class="rectangle color"></div>
+        <div class="rectangle color"></div>
+        <div class="rectangle color"></div>
+
+        <div class="smallRectangle color"></div>
+        <div class="smallRectangle color"></div>
+        <div class="smallRectangle color"></div>
+        <div class="smallRectangle color"></div>
+        <div class="smallRectangle color"></div>
+        <div class="smallRectangle color"></div>
+        <div class="smallRectangle color"></div>
+        <div class="smallRectangle color"></div>
+
+        <div class="long color"></div>
+        <div class="rectangle color"></div>
+
+        <div class="rectangle color"></div>
+        <div class="long color"></div>
+
+        <div class="medium color"></div>
+        <div class="medium color"></div>
+    </div>
+</body>
+</html>
