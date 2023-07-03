@@ -1,0 +1,71 @@
+@import 'palette';
+@import 'mixin';
+$font:14px;
+$font-lato:'Lato';
+
+
+$border-radius:10px;
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 45.5px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns:2px 222px 349px 29px 575px;
+    grid-template-rows: 86px 180px 180px 180px;
+
+    height:632.5px;
+    width: 1171.7px;
+
+    font-family: $font-lato;
+
+    h1:first-child{
+        grid-area:1/1/2/3;
+        font-weight: 300;
+        letter-spacing: -0.9px;
+        color: $header-color;
+        margin-bottom: 48px;
+    }
+
+
+
+    >div:nth-child(2){
+        grid-area:2/2/3/4;
+        @include grid;
+        @include Smalllayout($background-yellow,$border-yellow, $exclamation-color,#B18009,$background-yellow)
+    }
+
+    >div:nth-child(3){
+        grid-area:  2/5/3/-1;
+        @include grid;
+        @include Smalllayout($background-green,$border-green,$checkmarck-col,$checkmarck-col,$background-green)
+    }
+    >div:nth-child(4){
+        grid-area:3/2/4/4;
+        @include grid;
+        @include Smalllayout($background-red,$border-red,$iconX-col,$iconX-col,$background-red)
+    }
+
+    >div:nth-child(5){
+        grid-area: 3/5/4/-1;
+        @include grid;
+        @include Smalllayout($background-blue,$border-blue,$lighting-color,$lighting-color,$background-blue);
+        >i:nth-child(2){
+            line-height: 55px;
+        }
+    }
+
+    >div:nth-child(6){
+        grid-area: 4/2/5/-1;
+        @include grid-for-long;
+        @include Smalllayout($background-purple,$border-purple,$i-mark,$i-mark, $background-purple);
+        width:1170px;
+        
+    }
+
+}

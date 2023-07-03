@@ -1,0 +1,55 @@
+@mixin grid{
+        display: grid;
+        grid-template-columns: 49.5px 65px 28px 216px 119px 63px 15px;
+        grid-template-rows: 42px 25px 44px;
+}
+    
+@mixin Smalllayout($background-color,$border-color,$icon-color,$x-color,$back){
+        width: 570px;
+        height: 150px;
+        border: none;
+        border-radius: $border-radius;
+        background-color: $back;
+
+        >i:nth-child(1){
+            color: $x-color;
+            font-size: 14px;
+            grid-area: 1/-1/2/-2;
+            margin-top: 18px;
+        }
+
+        >i:nth-child(2){
+            height: 65px;
+            width: 65px;
+            border-radius: 50%;
+            background-color:$background-color;
+            border:  7px solid $border-color;
+            color: $icon-color;
+            text-align: center;
+            line-height: 51.5px;
+            grid-area: 2/2/4/3;
+            margin-top: 1.5px;
+            font-size: 22px;
+        }
+
+        h2{
+        font-size: 14px;
+        grid-area: 2/4/3/6;
+        line-height: 12px;
+        letter-spacing: 1.4px;
+        color: $header-color;
+        }
+
+        p{
+            font-size: $font;
+            color: $header-color;
+            grid-area:3/4/4/-3;
+            line-height: 24px;
+        }
+}
+
+@mixin grid-for-long{
+    display: grid;
+    grid-template-columns: 49.5px 65px 28px 216px 754px 28px 15px;
+    grid-template-rows: 42px 25px 44px;
+}
