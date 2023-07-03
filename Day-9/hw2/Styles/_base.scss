@@ -1,5 +1,3 @@
-@import 'palette';
-@import 'mixin';
 $font:14px;
 $font-lato:'Lato';
 
@@ -37,7 +35,7 @@ body{
     >div:nth-child(2){
         grid-area:2/2/3/4;
         @include grid;
-        @include Smalllayout($background-yellow,$border-yellow, $exclamation-color,#B18009,$background-yellow)
+        @include Smalllayout($background-yellow,$border-yellow, $exclamation-color,$col-for-first-x,$background-yellow)
     }
 
     >div:nth-child(3){
